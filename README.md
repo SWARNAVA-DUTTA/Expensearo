@@ -1,10 +1,12 @@
-# Expensearo
- Personal expense tracking app
+<h1>Expensearo</h1>
 
-Keep a daily record of your income and expenses with this app.
-Never lose your records when you log in to another device. All the data are backed up in your account.
-Just log in through your new device and you are good to go...
+![expensearo](https://user-images.githubusercontent.com/46235752/155900330-425405f1-535e-451c-9f83-bc2024db46ab.png)
 
+
+• Keep a daily record of your income and expenses with this app.<br/>
+• Never lose your records when you log in to another device. <br/>
+• All the data are backed up in your account.
+<br/><br/><br/>
  <table align="center">
  <tr>
   <td>
@@ -29,7 +31,8 @@ Just log in through your new device and you are good to go...
  </td>
  </tr>
 </table>
-
+<br/>
+Just log in through your new device and you are good to go...<br/><br/><br/>
 <table align="center">
  <tr>
   <td>
