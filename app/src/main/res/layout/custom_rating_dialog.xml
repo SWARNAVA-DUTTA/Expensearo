@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate Us"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"/>
+<!--    <com.hsalf.smilerating.SmileRating-->
+<!--        android:id="@+id/smile_rating"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_below="@id/text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/btn_layout"
+        android:layout_margin="20dp">
+<!--        android:layout_below="@id/smile_rating">-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/cancel_btn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:id="@+id/submit_btn"/>
+    </RelativeLayout>
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="gone"-->
+<!--        android:src="@drawable/fui_ic_check_circle_black_128dp"-->
+<!--        android:id="@+id/check"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your feedback"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/text2"/>
+<!--        android:layout_below="@id/check"-->
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

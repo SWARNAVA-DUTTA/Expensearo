@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.expensearo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl">
+        <activity android:name=".AddIncomeSecond" />
+        <activity android:name=".SendEmailActivity" />
+        <activity android:name=".EditCategory" />
+        <activity android:name=".EditTransaction" />
+        <activity android:name=".Settings" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".NewExpense" />
+        <activity android:name=".NewIncome" />
+        <activity android:name=".AddExpense" />
+        <activity android:name=".ExpenseActivity" />
+        <activity android:name=".AddIncome" />
+        <activity android:name=".IncomeActivity" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Registration" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

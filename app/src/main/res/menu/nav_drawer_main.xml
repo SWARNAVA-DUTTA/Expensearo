@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/income"
+            android:iconTint="@android:color/white"
+            android:icon="@drawable/income"
+            android:title="Income" />
+
+        <item
+            android:id="@+id/expense"
+            android:icon="@drawable/expense"
+            android:iconTint="@android:color/white"
+            android:title="Expense" />
+
+<!--        <item-->
+<!--            android:id="@+id/accounts"-->
+<!--            android:icon="@drawable/ic_baseline_account_balance_24"-->
+<!--            android:iconTint="@android:color/white"-->
+<!--            android:title="Accounts"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/emi"-->
+
+<!--            android:iconTint="@android:color/white"-->
+<!--            android:title="EMI" />-->
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:iconTint="@android:color/white"
+            android:title="Settings" />
+
+    </group>
+
+
+<!--    <group-->
+<!--        android:id="@+id/menu_bottom"-->
+<!--        android:checkableBehavior="none">-->
+
+<!--        <item-->
+<!--            android:id="@+id/drawer_item_settings"-->
+<!--            android:icon="@drawable/share"-->
+<!--            android:title="Share this app" >-->
+<!--        </item>-->
+<!--    </group>-->
+</menu>
